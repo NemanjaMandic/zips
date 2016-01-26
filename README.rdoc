@@ -21,11 +21,8 @@ gem 'mongoid', '~> 5.0', '>= 5.0.2'
 
 * in app/model add file zip.rb
 
-```
-<table>
- Bem mu detaru
-</table>
-[one] class Zip
+
+ <tt>class Zip</tt>
 
   def self.mongo_client
 	Mongoid::Clients.default
@@ -37,7 +34,7 @@ gem 'mongoid', '~> 5.0', '>= 5.0.2'
   
 end
 
-```
+
 
 * Services (job queues, cache servers, search engines, etc.)
 
