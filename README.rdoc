@@ -21,7 +21,7 @@ gem 'mongoid', '~> 5.0', '>= 5.0.2'
 
 * in app/model add file zip.rb
 
-```ruby
+```
 
 class Zip
 
