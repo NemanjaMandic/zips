@@ -1,14 +1,14 @@
-== Zips - Rails and MongoDB 
+= Zips - Rails and MongoDB 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-= Things you may want to cover:
 
-* Ruby version
+== New application:
 
-* System dependencies
+* rails new zips
 
+=== Add mongoid gem to Gemfile
+
+gem 'mongoid', '~> 5.0', '>= 5.0.2'
 * Configuration
 
 * Database creation
