@@ -13,8 +13,8 @@ gem 'mongoid', '~> 5.0', '>= 5.0.2'
 === Mongo DatabaseConfiguration
 
  $ rails g mongoid:config
-in config/application.rb - bootstraps mongoid within application  
-Mongoid.load!("./config/mongoid.yml")
+   in config/application.rb - bootstraps mongoid within application  
+   Mongoid.load!("./config/mongoid.yml")
 
 +++ Database initialization
 
