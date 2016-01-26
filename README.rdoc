@@ -22,7 +22,9 @@ gem 'mongoid', '~> 5.0', '>= 5.0.2'
 * in app/model add file zip.rb
 
 ```
-
+<table>
+ Bem mu detaru
+</table>
 [one] class Zip
 
   def self.mongo_client
