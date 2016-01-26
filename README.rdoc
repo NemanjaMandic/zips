@@ -10,15 +10,29 @@
 
 gem 'mongoid', '~> 5.0', '>= 5.0.2'
 
-=== Mongo DatabaseConfiguration
+=== Mongo Database Configuration
 
  $ rails g mongoid:config
+   
    in config/application.rb - bootstraps mongoid within application  
    Mongoid.load!("./config/mongoid.yml")
 
-+++ Database initialization
+=== Dao Class
 
-* How to run the test suite
+* in app/model add file zip.rb
+
+```ruby
+class Zip
+
+def self.mongo_client
+	Mongoid::Clients.default
+end
+
+def self.collection
+	self.mongo_client['zips']
+end
+end
+```
 
 * Services (job queues, cache servers, search engines, etc.)
 
